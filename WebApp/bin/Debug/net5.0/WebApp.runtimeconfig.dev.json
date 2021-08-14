@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/syscalloverflow/.dotnet/store/|arch|/|tfm|",
+      "/Users/syscalloverflow/.nuget/packages"
+    ]
+  }
+}

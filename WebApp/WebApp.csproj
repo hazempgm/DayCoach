@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\" />
+    <None Remove="Views\Home\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\html5up-solid-state\Index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\bg.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic01.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic02.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic03.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic04.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic05.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic06.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic07.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\images\pic08.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\elements.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\generic.cshtml" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\LICENSE.txt" />
+    <_ContentIncludedByDefault Remove="wwwroot\html5up-solid-state\README.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+	<head>
+		<title>@ViewBag.Title - Solid State by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="~/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="~/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						@Html.ActionLink("Home", "Index", "Home")
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								@Html.ActionLink("Home", "Index", "Home")
+								<br>
+								@Html.ActionLink("Generic", "Generic", "Home")
+								<br>
+								@Html.ActionLink("Elements", "Elements", "Home")
+								<br>
+								@Html.ActionLink("Log In", "LogIn", "Home")
+								<br>
+								@Html.ActionLink("Sign Up", "SignUp", "Home")
+								<br>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+				<!-- Wrapper -->
+				<main role="main">
+				  @RenderBody()
+				</main>
+				<!-- Footer -->
+			</div>
+
+		<!-- Scripts -->
+			<script src="~/assets/js/jquery.min.js"></script>
+			<script src="~/assets/js/jquery.scrollex.min.js"></script>
+			<script src="~/assets/js/browser.min.js"></script>
+			<script src="~/assets/js/breakpoints.min.js"></script>
+			<script src="~/assets/js/util.js"></script>
+			<script src="~/assets/js/main.js"></script>
+	</body>
+</html>
