@@ -11,6 +11,7 @@ pipeline {
         stage('Deploy') {
 		steps {
 		    sh 'echo "Deploying..."'
+		    sh 'echo "Running..."'
 		    sh 'sudo pkill WebApp'
 		    sh 'sudo dotnet run WebApp/WebApp.csproj'
 		}
