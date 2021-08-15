@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
 		steps {
 		    sh 'echo "Building..."'
-		    sh 'sudo dotnet build WebApp/WebApp.csproj'
+		    sh 'dotnet build WebApp/WebApp.csproj'
 		}
         }
 
@@ -12,8 +12,8 @@ pipeline {
 		steps {
 		    sh 'echo "Deploying..."'
 		    sh 'echo "Running..."'
-		    sh 'sudo pkill WebApp'
-		    sh 'sudo dotnet run WebApp/WebApp.csproj'
+		    sh 'pkill WebApp'
+		    sh 'dotnet run WebApp/WebApp.csproj'
 		}
         }
     }
